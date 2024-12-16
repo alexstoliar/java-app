@@ -36,5 +36,5 @@ jobs:
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         run: mvn sonar:sonar \
-          -Dsonar.projectKey=your_project_key \
-          -Dsonar.organization=your_organization_key
+          -Dsonar.projectKey=java-app \
+          -Dsonar.organization=alexstoliar
